@@ -1,8 +1,14 @@
+/*Folha de estilos padrão/principal*/
+
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   background-image: url("../images/wall.png");
+}
+
+.label {
+  color: #ff0000;
 }
 
 .menu {
@@ -28,7 +34,7 @@
   height: 150px;
   width: 150px;
   border: 1px solid #000000;
-  background-color: #1aeaa5;
+  background-color: #49f1b9;
 }
 
 .enemy {
@@ -45,4 +51,18 @@
 .menu-time h2:nth-child(2),
 .menu-score h2:nth-child(2) {
   margin-top: 1rem;
+  margin-left: 100px;
+      /* Dentro da classe citada, 
+    ele pega o h2 que seja o 2 filho daquela classe e aplica margin-top e margin-left*/
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.evidence {
+  font-size: 30px;
+  color: #eb2c2c;
 }
