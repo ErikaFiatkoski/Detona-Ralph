@@ -49,7 +49,8 @@
 }
 
 .menu-time h2:nth-child(2),
-.menu-score h2:nth-child(2) {
+.menu-score h2:nth-child(2),
+.menu-total-score h2:nth-child(2) {
   margin-top: 1rem;
   margin-left: 100px;
       /* Dentro da classe citada, 
